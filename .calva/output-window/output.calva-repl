@@ -1,0 +1,2275 @@
+; This is the Calva evaluation results output window.
+; TIPS: The keyboard shortcut `ctrl+alt+o o` shows and focuses this window
+;   when connected to a REPL session.
+; Please see https://calva.io/output/ for more info.
+; Happy coding! ♥️
+
+; Jacking in...
+; Aborting jack-in. No project type selected.
+; Jacking in...
+; Starting Jack-in Terminal: npx.cmd shadow-cljs -d cider/cider-nrepl:0.28.5 watch :app
+; Hooking up nREPL sessions...
+; Connected session: clj
+; TIPS:
+;   - You can edit the contents here. Use it as a REPL if you like.
+;   - `alt+enter` evaluates the current top level form.
+;   - `ctrl+enter` evaluates the current form.
+;   - `alt+up` and `alt+down` traverse up and down the REPL command history
+;      when the cursor is after the last contents at the prompt
+;   - Clojure lines in stack traces are peekable and clickable.
+clj꞉shadow.user꞉>  ; Use `alt+enter` to evaluate
+; Creating cljs repl session...
+; Connecting cljs repl: shadow-cljs...
+;   The Calva Connection Log might have more connection progress information.
+; Connected session: cljs, repl: :app
+; TIPS: You can choose which REPL to use (clj or cljs):
+;    *Calva: Toggle REPL connection*
+;    (There is a button in the status bar for this)
+; Jack-in done.
+cljs꞉cljs.user꞉>  ; Use `alt+enter` to evaluate
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+#'mecca.music/zero-pad
+cljs꞉mecca.music꞉> 
+#'mecca.music/zero-pad
+cljs꞉mecca.music꞉> 
+("/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "1" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "2" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "3" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "4" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "5" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "6" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "7" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "8" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "0" "9" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v" "/" "a" "u" "d" "i" "o" "/" "t" "u" "b" "-" "." "w" "a" "v")
+cljs꞉mecca.music꞉> 
+("/audio/tub-01.wav" "/audio/tub-02.wav" "/audio/tub-03.wav" "/audio/tub-04.wav" "/audio/tub-05.wav" "/audio/tub-06.wav" "/audio/tub-07.wav" "/audio/tub-08.wav" "/audio/tub-09.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav" "/audio/tub-.wav")
+cljs꞉mecca.music꞉> 
+#'mecca.music/zero-pad
+cljs꞉mecca.music꞉> 
+("/audio/tub-01.wav" "/audio/tub-02.wav" "/audio/tub-03.wav" "/audio/tub-04.wav" "/audio/tub-05.wav" "/audio/tub-06.wav" "/audio/tub-07.wav" "/audio/tub-08.wav" "/audio/tub-09.wav" "/audio/tub-10.wav" "/audio/tub-11.wav" "/audio/tub-12.wav" "/audio/tub-13.wav" "/audio/tub-14.wav" "/audio/tub-15.wav" "/audio/tub-16.wav" "/audio/tub-17.wav" "/audio/tub-18.wav" "/audio/tub-19.wav" "/audio/tub-20.wav")
+cljs꞉mecca.music꞉> 
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+{"tub-17" {:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-11" {:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-16" {:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-13" {:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-19" {:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-09" {:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-14" {:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-05" {:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-12" {:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-01" {:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-10" {:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-04" {:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-07" {:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-08" {:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-20" {:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-15" {:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-18" {:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-02" {:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-06" {:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-03" {:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}}
+cljs꞉mecca.music꞉> 
+nil
+cljs꞉mecca.music꞉> 
+nil
+cljs꞉mecca.music꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+{1 {:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 2 {:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 3 {:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 4 {:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 5 {:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 6 {:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 7 {:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 8 {:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 9 {:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 10 {:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 11 {:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 12 {:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 13 {:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 14 {:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 15 {:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 16 {:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 17 {:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 18 {:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}}
+cljs꞉mecca.music꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+({"tub-17" {:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-11" {:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-16" {:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-13" {:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-19" {:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-09" {:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-14" {:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-05" {:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-12" {:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-01" {:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-10" {:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-04" {:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-07" {:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-08" {:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-20" {:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-15" {:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-18" {:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-02" {:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-06" {:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-03" {:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}} {1 {:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 2 {:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 3 {:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 4 {:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 5 {:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 6 {:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 7 {:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 8 {:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 9 {:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 10 {:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 11 {:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 12 {:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 13 {:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 14 {:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 15 {:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 16 {:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 17 {:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 18 {:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}})
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+{{1 {:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 2 {:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 3 {:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 4 {:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 5 {:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 6 {:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 7 {:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 8 {:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 9 {:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 10 {:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 11 {:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 12 {:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 13 {:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 14 {:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 15 {:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 16 {:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 17 {:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 18 {:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}} nil, nil nil, {"tub-17" {:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-11" {:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-16" {:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-13" {:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-19" {:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-09" {:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-14" {:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-05" {:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-12" {:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-01" {:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-10" {:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-04" {:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-07" {:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-08" {:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-20" {:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-15" {:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-18" {:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-02" {:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-06" {:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-03" {:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}} nil}
+cljs꞉mecca.music꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+cljs.core.async.impl.channels/ManyToManyChannel
+cljs꞉mecca.music꞉> 
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+
+; Error: No protocol method ICollection.-conj defined for type cljs.core.async.impl.channels/ManyToManyChannel: [object Object]
+;     at Object.cljs$core$missing_protocol [as missing_protocol] (/js/cljs-runtime/cljs.core.js:313:9)
+    at Object.cljs$core$_conj [as _conj] (/js/cljs-runtime/cljs.core.js:1657:17)
+    at Function.eval [as cljs$core$IFn$_invoke$arity$2] (/js/cljs-runtime/cljs.core.js:5873:18)
+    at eval (/js/cljs-runtime/cljs.core.js:29249:23)
+    at eval (/js/cljs-runtime/cljs.core.js:5025:98)
+    at Function.eval [as cljs$core$IFn$_invoke$arity$4] (/js/cljs-runtime/cljs.core.js:5026:3)
+    at Object.eval [as cljs$core$IReduce$_reduce$arity$2] (/js/cljs-runtime/cljs.core.js:5413:31)
+    at Function.eval [as cljs$core$IFn$_invoke$arity$2] (/js/cljs-runtime/cljs.core.js:7900:13)
+    at Function.eval [as cljs$core$IFn$_invoke$arity$variadic] (/js/cljs-runtime/cljs.core.js:29248:25)
+    at cljs$core$merge (/js/cljs-runtime/cljs.core.js:29243:24)
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+nil
+cljs꞉mecca.music꞉> 
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+nil
+cljs꞉mecca.music꞉> 
+nil
+cljs꞉mecca.music꞉> 
+nil
+cljs꞉mecca.music꞉> 
+#object[cljs.core.async.impl.channels.ManyToManyChannel]
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+nil
+cljs꞉mecca.music꞉> 
+nil
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.mp3", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+#'mecca.music/measures
+cljs꞉mecca.music꞉> 
+("tub-01" "tub-02" "tub-03" "tub-04" "tub-05" "tub-06" "tub-07" "tub-08" "tub-09" "tub-10" "tub-11" "tub-12" "tub-13" "tub-14" "tub-15" "tub-16" "tub-17" "tub-18" "tub-19" "tub-20")
+cljs꞉mecca.music꞉> 
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+("tub-01" "tub-02" "tub-03" "tub-04" "tub-05" "tub-06" "tub-07" "tub-08" "tub-09" "tub-10" "tub-11" "tub-12" "tub-13" "tub-14" "tub-15" "tub-16" "tub-17" "tub-18" "tub-19" "tub-20")
+cljs꞉mecca.music꞉> 
+(19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 "tub-01" "tub-02" "tub-03" "tub-04" "tub-05" "tub-06" "tub-07" "tub-08" "tub-09" "tub-10" "tub-11" "tub-12" "tub-13" "tub-14" "tub-15" "tub-16" "tub-17" "tub-18" "tub-19" "tub-20")
+cljs꞉mecca.music꞉> 
+
+; ------ REPL Error while processing ---------------------------------------------
+; (number? 5)
+no source by provide: mecca.music
+{:provide mecca.music}
+ExceptionInfo: no source by provide: mecca.music
+	shadow.build.data/get-source-id-by-provide (data.clj:184)
+	shadow.build.data/get-source-id-by-provide (data.clj:181)
+	shadow.build.data/get-source-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:186)
+	shadow.cljs.repl/repl-compile/fn--13165/fn--13166 (repl.clj:453)
+	shadow.cljs.repl/repl-compile/fn--13165 (repl.clj:429)
+	shadow.cljs.repl/repl-compile (repl.clj:427)
+	shadow.cljs.repl/repl-compile (repl.clj:424)
+	shadow.cljs.repl/process-read-result (repl.clj:515)
+	shadow.cljs.repl/process-read-result (repl.clj:491)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:844)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:798)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:879)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:878)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547/fn--13555 (util.clj:285)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547 (util.clj:284)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546 (util.clj:257)
+	java.lang.Thread.run (:-1)
+cljs꞉mecca.music꞉> 
+
+; ------ REPL Error while processing ---------------------------------------------
+; (load-samples)
+no source by provide: mecca.music
+{:provide mecca.music}
+ExceptionInfo: no source by provide: mecca.music
+	shadow.build.data/get-source-id-by-provide (data.clj:184)
+	shadow.build.data/get-source-id-by-provide (data.clj:181)
+	shadow.build.data/get-source-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:186)
+	shadow.cljs.repl/repl-compile/fn--13165/fn--13166 (repl.clj:453)
+	shadow.cljs.repl/repl-compile/fn--13165 (repl.clj:429)
+	shadow.cljs.repl/repl-compile (repl.clj:427)
+	shadow.cljs.repl/repl-compile (repl.clj:424)
+	shadow.cljs.repl/process-read-result (repl.clj:515)
+	shadow.cljs.repl/process-read-result (repl.clj:491)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:844)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:798)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:879)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:878)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547/fn--13555 (util.clj:285)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547 (util.clj:284)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546 (util.clj:257)
+	java.lang.Thread.run (:-1)
+cljs꞉mecca.music꞉> 
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+
+; ------ REPL Error while processing ---------------------------------------------
+; (load-samples)
+no source by provide: mecca.music
+{:provide mecca.music}
+ExceptionInfo: no source by provide: mecca.music
+	shadow.build.data/get-source-id-by-provide (data.clj:184)
+	shadow.build.data/get-source-id-by-provide (data.clj:181)
+	shadow.build.data/get-source-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:186)
+	shadow.cljs.repl/repl-compile/fn--13165/fn--13166 (repl.clj:453)
+	shadow.cljs.repl/repl-compile/fn--13165 (repl.clj:429)
+	shadow.cljs.repl/repl-compile (repl.clj:427)
+	shadow.cljs.repl/repl-compile (repl.clj:424)
+	shadow.cljs.repl/process-read-result (repl.clj:515)
+	shadow.cljs.repl/process-read-result (repl.clj:491)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:844)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:798)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:879)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:878)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547/fn--13555 (util.clj:285)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547 (util.clj:284)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546 (util.clj:257)
+	java.lang.Thread.run (:-1)
+cljs꞉mecca.music꞉> 
+
+; ------ REPL Error while processing ---------------------------------------------
+; (defn load-samples []
+  (go-loop [result {}
+            sounds (into measures (range 1 20))]
+    (if-not (nil? (first sounds))
+      (let [sound (first sounds)
+            decoded-buffer (<! (get-and-decode {:url (str "/audio/" sound (if (number? sound) ".mp3" ".wav"))
+                                                :sound sound}))]
+        (prn sound)
+        (prn decoded-buffer)
+        (recur (assoc result sound decoded-buffer)
+               (rest sounds)))
+      result)))
+no source by provide: mecca.music
+{:provide mecca.music}
+ExceptionInfo: no source by provide: mecca.music
+	shadow.build.data/get-source-id-by-provide (data.clj:184)
+	shadow.build.data/get-source-id-by-provide (data.clj:181)
+	shadow.build.data/get-source-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:186)
+	shadow.cljs.repl/repl-compile/fn--13165/fn--13166 (repl.clj:453)
+	shadow.cljs.repl/repl-compile/fn--13165 (repl.clj:429)
+	shadow.cljs.repl/repl-compile (repl.clj:427)
+	shadow.cljs.repl/repl-compile (repl.clj:424)
+	shadow.cljs.repl/process-read-result (repl.clj:515)
+	shadow.cljs.repl/process-read-result (repl.clj:491)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:844)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:798)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:879)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:878)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547/fn--13555 (util.clj:285)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547 (util.clj:284)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546 (util.clj:257)
+	java.lang.Thread.run (:-1)
+cljs꞉mecca.music꞉> 
+
+; ------ REPL Error while processing ---------------------------------------------
+; ".wav"
+no source by provide: mecca.music
+{:provide mecca.music}
+ExceptionInfo: no source by provide: mecca.music
+	shadow.build.data/get-source-id-by-provide (data.clj:184)
+	shadow.build.data/get-source-id-by-provide (data.clj:181)
+	shadow.build.data/get-source-by-provide (data.clj:187)
+	shadow.build.data/get-source-by-provide (data.clj:186)
+	shadow.cljs.repl/repl-compile/fn--13165/fn--13166 (repl.clj:453)
+	shadow.cljs.repl/repl-compile/fn--13165 (repl.clj:429)
+	shadow.cljs.repl/repl-compile (repl.clj:427)
+	shadow.cljs.repl/repl-compile (repl.clj:424)
+	shadow.cljs.repl/process-read-result (repl.clj:515)
+	shadow.cljs.repl/process-read-result (repl.clj:491)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:844)
+	shadow.cljs.devtools.server.worker.impl/do-repl-rpc (impl.clj:798)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:879)
+	shadow.cljs.devtools.server.worker.impl/fn--13963 (impl.clj:878)
+	clojure.lang.MultiFn.invoke (MultiFn.java:234)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547/fn--13555 (util.clj:285)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546/fn--13547 (util.clj:284)
+	shadow.cljs.devtools.server.util/server-thread/fn--13546 (util.clj:257)
+	java.lang.Thread.run (:-1)
+cljs꞉mecca.music꞉> 
+19
+nil
+18
+nil
+17
+nil
+16
+nil
+15
+nil
+14
+nil
+13
+nil
+12
+nil
+11
+nil
+10
+nil
+9
+nil
+8
+nil
+7
+nil
+6
+nil
+5
+nil
+4
+nil
+3
+nil
+2
+nil
+1
+nil
+"tub-01"
+nil
+"tub-02"
+nil
+"tub-03"
+nil
+"tub-04"
+nil
+"tub-05"
+nil
+"tub-06"
+nil
+"tub-07"
+nil
+"tub-08"
+nil
+"tub-09"
+nil
+"tub-10"
+nil
+"tub-11"
+nil
+"tub-12"
+nil
+"tub-13"
+nil
+"tub-14"
+nil
+"tub-15"
+nil
+"tub-16"
+nil
+"tub-17"
+nil
+"tub-18"
+nil
+"tub-19"
+nil
+"tub-20"
+nil
+19
+nil
+18
+nil
+17
+nil
+16
+nil
+15
+nil
+14
+nil
+13
+nil
+12
+nil
+11
+nil
+10
+nil
+9
+nil
+8
+nil
+7
+nil
+6
+nil
+5
+nil
+4
+nil
+3
+nil
+2
+nil
+1
+nil
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+#'mecca.music/sax
+cljs꞉mecca.music꞉> 
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+19
+nil
+"sax-01"
+{:sound "sax-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-02"
+{:sound "sax-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-03"
+{:sound "sax-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-04"
+{:sound "sax-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-05"
+{:sound "sax-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-06"
+{:sound "sax-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-07"
+{:sound "sax-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-08"
+{:sound "sax-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-09"
+{:sound "sax-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-10"
+{:sound "sax-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-11"
+{:sound "sax-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-12"
+{:sound "sax-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-13"
+{:sound "sax-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+("tub-20" "tub-19" "tub-18" "tub-17" "tub-16" "tub-15" "tub-14" "tub-13" "tub-12" "tub-11" "tub-10" "tub-09" "tub-08" "tub-07" "tub-06" "tub-05" "tub-04" "tub-03" "tub-02" "tub-01" 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 "sax-01" "sax-02" "sax-03" "sax-04" "sax-05" "sax-06" "sax-07" "sax-08" "sax-09" "sax-10" "sax-11" "sax-12" "sax-13")
+cljs꞉mecca.music꞉> 
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+19
+nil
+"sax-01"
+{:sound "sax-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-02"
+{:sound "sax-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-03"
+{:sound "sax-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-04"
+{:sound "sax-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-05"
+{:sound "sax-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-06"
+{:sound "sax-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-07"
+{:sound "sax-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-08"
+{:sound "sax-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-09"
+{:sound "sax-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-10"
+{:sound "sax-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-11"
+{:sound "sax-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-12"
+{:sound "sax-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-13"
+{:sound "sax-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-01"
+{:sound "sax-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-02"
+{:sound "sax-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-03"
+{:sound "sax-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-04"
+{:sound "sax-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-05"
+{:sound "sax-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-06"
+{:sound "sax-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-07"
+{:sound "sax-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-08"
+{:sound "sax-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-09"
+{:sound "sax-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-10"
+{:sound "sax-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-11"
+{:sound "sax-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-12"
+{:sound "sax-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-13"
+{:sound "sax-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+{"sax-06" {:sound "sax-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 1 {:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-12" {:sound "sax-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-17" {:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 2 {:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 3 {:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 4 {:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 5 {:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-11" {:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-16" {:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 6 {:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-04" {:sound "sax-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-13" {:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 7 {:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 8 {:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-09" {:sound "sax-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 9 {:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-19" {:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 10 {:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-13" {:sound "sax-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-05" {:sound "sax-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 11 {:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-09" {:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 12 {:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 13 {:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 14 {:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-14" {:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-07" {:sound "sax-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-05" {:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 15 {:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 16 {:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 17 {:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-12" {:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-01" {:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-03" {:sound "sax-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, 18 {:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-11" {:sound "sax-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-10" {:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-10" {:sound "sax-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-04" {:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-07" {:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-08" {:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-20" {:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-15" {:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-18" {:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-01" {:sound "sax-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-02" {:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-06" {:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-02" {:sound "sax-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "tub-03" {:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}, "sax-08" {:sound "sax-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}}
+cljs꞉mecca.music꞉> 
+("tub-20" "tub-19" "tub-18" "tub-17" "tub-16" "tub-15" "tub-14" "tub-13" "tub-12" "tub-11" "tub-10" "tub-09" "tub-08" "tub-07" "tub-06" "tub-05" "tub-04" "tub-03" "tub-02" "tub-01" 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 "sax-01" "sax-02" "sax-03" "sax-04" "sax-05" "sax-06" "sax-07" "sax-08" "sax-09" "sax-10" "sax-11" "sax-12" "sax-13")
+cljs꞉mecca.music꞉> 
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+{:6 6}
+cljs꞉mecca.music꞉> 
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"
+"tub-20"
+{:sound "tub-20", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-20.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-19"
+{:sound "tub-19", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-19.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-18"
+{:sound "tub-18", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-17"
+{:sound "tub-17", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-16"
+{:sound "tub-16", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-15"
+{:sound "tub-15", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-14"
+{:sound "tub-14", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-13"
+{:sound "tub-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-12"
+{:sound "tub-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-11"
+{:sound "tub-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-10"
+{:sound "tub-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-09"
+{:sound "tub-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-08"
+{:sound "tub-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-07"
+{:sound "tub-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-06"
+{:sound "tub-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-05"
+{:sound "tub-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-04"
+{:sound "tub-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-03"
+{:sound "tub-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-02"
+{:sound "tub-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"tub-01"
+{:sound "tub-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/tub-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+1
+{:sound 1, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/1.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+2
+{:sound 2, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/2.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+3
+{:sound 3, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/3.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+4
+{:sound 4, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/4.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+5
+{:sound 5, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/5.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+6
+{:sound 6, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/6.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+7
+{:sound 7, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/7.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+8
+{:sound 8, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/8.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+9
+{:sound 9, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/9.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+10
+{:sound 10, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+11
+{:sound 11, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+12
+{:sound 12, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+13
+{:sound 13, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+14
+{:sound 14, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/14.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+15
+{:sound 15, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/15.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+16
+{:sound 16, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/16.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+17
+{:sound 17, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/17.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+18
+{:sound 18, :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/18.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-01"
+{:sound "sax-01", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-01.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-02"
+{:sound "sax-02", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-02.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-03"
+{:sound "sax-03", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-03.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-04"
+{:sound "sax-04", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-04.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-05"
+{:sound "sax-05", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-05.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-06"
+{:sound "sax-06", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-06.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-07"
+{:sound "sax-07", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-07.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-08"
+{:sound "sax-08", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-08.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-09"
+{:sound "sax-09", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-09.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-10"
+{:sound "sax-10", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-10.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-11"
+{:sound "sax-11", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-11.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-12"
+{:sound "sax-12", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-12.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"sax-13"
+{:sound "sax-13", :decoded-buffer #object[AudioBuffer [object AudioBuffer]], :url "/audio/sax-13.wav", :buffer #object[ArrayBuffer [object ArrayBuffer]]}
+"Samples loaded"

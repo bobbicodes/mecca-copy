@@ -79,12 +79,21 @@
     (when-let [s (<! (load-sound named-url))]
       (<! (decode s)))))
 
+(defn zero-pad [n]
+  (if (< n 10) (str "0" n) n))
+
+(def measures (map #(str "tub-" (zero-pad %))
+                   (range 1 21)))
+
+(def sax (map #(str "sax-" (zero-pad %))
+              (range 1 14)))
+
 (defn load-samples []
   (go-loop [result {}
-            sounds (range 1 19)]
+            sounds (into sax (into measures (range 1 19)))]
     (if-not (nil? (first sounds))
       (let [sound (first sounds)
-            decoded-buffer (<! (get-and-decode {:url (str "/audio/" sound ".mp3")
+            decoded-buffer (<! (get-and-decode {:url (str "/audio/" sound ".wav")
                                                 :sound sound}))]
         (prn sound)
         (prn decoded-buffer)
